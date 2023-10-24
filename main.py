@@ -27,7 +27,7 @@ def n_neighbors_uri_audio(genre, start_year, end_year, test_feat):
     audios = genre_data.iloc[n_neighbors][audio_feats].to_numpy()
     return uris, audios
 
-title = "GenreX"
+title = "Recommendation"
 st.title(title)
 st.write("First of all, welcome! This is the place where you can customize what you want to listen to based on genre and several key audio features. Try playing around with different settings and listen to the songs recommended by Malhar!")
 st.markdown("##")
